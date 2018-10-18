@@ -1,4 +1,4 @@
-#!/home/pankaj/KoreaFB/venv/bin/python
+#!/home/pankaj/Desktop/Google-And-Facebook-Authentication/venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":
