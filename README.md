@@ -13,4 +13,5 @@ Open your terminal and change your working directory to Google-And-Facebook-Auth
 source venv/bin/activate (in your terminal)
 #### Runnning the website
 Since Facebook authentication is only possible with https therefore instead of running our website through python manage.py runserver command we run our website through the command python manage.py runserver_plus --cert-file /tmp/cert.<br>
-Google authentication will also work with https so don't forget to run https debugger through the command python manage.py runserver_plus --cert-file /tmp/cert
+Google authentication will also work with https so don't forget to run https debugger through the command python manage.py runserver_plus --cert-file /tmp/cert<br>
+Use localhost instead of 127.0.0.1 .
