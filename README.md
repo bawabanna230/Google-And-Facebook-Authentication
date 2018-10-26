@@ -15,3 +15,4 @@ source venv/bin/activate (in your terminal)
 Since Facebook authentication is only possible with https therefore instead of running our website through python manage.py runserver command we run our website through the command python manage.py runserver_plus --cert-file /tmp/cert.<br>
 Google authentication will also work with https so don't forget to run https debugger through the command python manage.py runserver_plus --cert-file /tmp/cert<br>
 Use localhost instead of 127.0.0.1 .
+To know the packages needed activate virtual environment and run "pip list --local"
